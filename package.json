@@ -1,6 +1,6 @@
 {
   "name": "flipspace-elearning",
-  "homepage": "https://salahmed-ctrlz.github.io/FlipSpace-elearning/",
+  "homepage": "https://Hamoudibenarba25.github.io/FlipSpaceElearning/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/Hamoudibenarba25/FlipSpaceElearning.git"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

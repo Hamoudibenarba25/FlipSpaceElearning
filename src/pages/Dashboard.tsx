@@ -112,6 +112,14 @@ export default function Dashboard() {
       color: 'text-purple-600',
       bgColor: 'bg-purple-50 dark:bg-purple-950/20',
     },
+    {
+      title: 'View My Progress',
+      description: 'Track your completion and achievements',
+      icon: BarChart3,
+      link: '/profile',
+      color: 'text-amber-600',
+      bgColor: 'bg-amber-50 dark:bg-amber-950/20',
+    },
   ];
 
   const cards = isTeacher ? teacherCards : studentCards;
@@ -259,7 +267,7 @@ export default function Dashboard() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {cards.map((card, index) => {
               const Icon = card.icon;
               return (
